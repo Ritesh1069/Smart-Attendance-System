@@ -19,14 +19,11 @@ sadmona_encoding = face_recognition.face_encodings(sadmona_image)[0]
 tesla_image = face_recognition.load_image_file("R:\photos/tesla.jpg")
 tesla_encoding = face_recognition.face_encodings(tesla_image)[0]
  
-ritesh_image = face_recognition.load_image_file("R:\photos/ritesh.jpg")
-ritesh_encoding = face_recognition.face_encodings(ritesh_image)[0]
 
 known_face_encoding = [
 jobs_encoding,
 ratan_tata_encoding,
 sadmona_encoding,
-ritesh_encoding,
 tesla_encoding
 ]
  
@@ -34,7 +31,6 @@ known_faces_names = [
 "jobs",
 "ratan tata",
 "sadmona",
-"ritesh maurya",
 "tesla"
 ]
  
